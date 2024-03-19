@@ -5,9 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
-@SpringBootApplication(scanBasePackages = "com.baeldung.boot.jsp")
-
+//@RestController
+//@SpringBootApplication(scanBasePackages = "com.baeldung.boot.jsp")
+@SpringBootApplication
 public class CvpageApplication {
 //	For Web Container
 //	public class CvpageApplication extends SpringBootServletInitializer{
@@ -15,10 +15,10 @@ public class CvpageApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CvpageApplication.class, args);
 	}
-	@RequestMapping("/")
-	public String home(){
-		return "Hello World!ß";
-	}
+//	@RequestMapping("/")
+//	public String home(){
+//		return "Hello World!";
+//	}
 
 //	For Web Container
 //	@Override
