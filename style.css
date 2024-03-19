@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #1b1b1b;
+    color: #F2F3F4;
+}
+
+.filler1 {
+  min-height: 60%;
+  background-color: #000000;
+}
+
+.parallax1 {
+  background:
+       linear-gradient(
+         rgba(0, 0, 0, 0.2),
+         rgba(0, 0, 0, 0.2)
+       ),
+       url("images/sunset.jpeg");
+  /*background-image: url("images/sunset.jpeg");*/
+  min-height: 150px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  background:
+       linear-gradient(
+         rgba(0, 0, 0, 0.3),
+         rgba(0, 0, 0, 0.3)
+       ),
+       url("images/atlanta.jpeg");
+  /*background-image: url("images/atlanta.jpeg");*/
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+li{
+  font-size: 20px;
+}
+
+li.li1{
+  float: left;
+  padding: 0px 30px;
+  text-decoration: none;
+  color: white;
+
+}
+/*
+a:link{
+  color: gray;
+  text-decoration: none;
+}
+
+a:visited{
+
+  color: darkslategray;
+
+  color: gray;
+  text-decoration: none;
+}
+
+a:active{
+  color: powderblue;
+  text-decoration: none;
+}
+
+a:hover{
+  color: lightgray;
+  text-decoration: none;
+}
+*/
+#logo{
+
+}
+
+
+#ul1{
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: black;
+}
+
+#header {
+  color: white;
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+
+
+}
