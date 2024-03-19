@@ -73,6 +73,12 @@
 		</dependency>
 
 	</dependencies>
+	<distributionManagement>
+		<site>
+			<id>github</id>
+			<url>scm:git:git@github.com:LuuChris</url>
+		</site>
+	</distributionManagement>
 
 	<build>
 		<plugins>
